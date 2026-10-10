@@ -17,7 +17,7 @@ Use this evidence hierarchy:
 | Original exported figure | Detailed visible content and file properties actually inspected | Does not establish raw-data provenance |
 | Raw images/source data/code | Traceable checks of selected reported quantities and processing | State which checks ran; no blanket authenticity guarantee |
 
-**Heuristic.** Actually inspect pixels. Read each complete figure at an overview scale, at its intended reproduction size when determinable, and in enlarged panel views. Use enlargement for inspection, not as evidence that a figure is readable in print. If page scale is unknown, say so; do not report measured font sizes from an arbitrary screenshot. Record the rendering/viewing method and failed or unavailable panels. OCR can support label extraction but does not replace visual inspection.
+**Heuristic.** Actually inspect pixels. Read each complete figure at an overview scale and at its intended reproduction size when determinable. Inspect each panel at sufficient detail, enlarging when necessary; native resolution may suffice for a simple legible panel. Use enlargement for inspection, not as evidence that a figure is readable in print. If page scale is unknown, say so; do not report measured font sizes from an arbitrary screenshot. Record the rendering/viewing method and failed or unavailable panels. OCR can support label extraction but does not replace visual inspection.
 
 **Stage distinction.** Initial-submission figures need sufficient resolution for assessment; production files are deferred. [F01] Treat formatting refinements as stage-specific tasks; treat obscured evidence as a scientific communication problem at any stage.
 

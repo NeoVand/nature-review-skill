@@ -31,6 +31,8 @@ A fresh-context evaluator independently produced [independent-author-review.md](
 
 Thus all ten scenarios A–J were exercised, with A additionally tested by an independent fresh-context evaluator. This is a small, qualitative behavioral check, not a measured accuracy rate. Distribution observations are recorded in [publication-status.md](publication-status.md).
 
+The fresh evaluator disclosed two procedural departures: it read the caption before viewing the image and did not create a separate enlarged crop of the legible single panel. The review distinguished pixel observations from caption facts and did not claim print-size inspection. Integration made these procedural heuristics proportionate: zoom when detail requires it, and use a visual-only first pass when practical while preserving the observation/caption distinction. That clarification was structurally validated; a new full behavioral run was not performed after it. Partial field calibration remains an explicit limitation, not an implicit pass for a complete field dossier.
+
 ## Remaining uncertainties
 
 Several official pages still disagree. The skill records six artwork/legend topics plus the AI/referee-policy discrepancy and a dated transparent-review change that supersedes older opt-in wording. These are exposed to the using agent, not treated as settled rules.
