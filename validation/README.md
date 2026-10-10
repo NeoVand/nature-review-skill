@@ -10,7 +10,7 @@ The author's bundled skill-creator `quick_validate.py` and the official skills C
 
 ## Behavioral exercises
 
-[scenarios.md](scenarios.md) defines ten synthetic scenarios and their expected observable behavior. The author packet and generated image are in [fixtures](fixtures/). The figure-generation script uses Pillow; it is development tooling, not a runtime dependency of the installed skill. Run `python3 scripts/make_visual_fixture.py` with Pillow available to reproduce it.
+[scenarios.md](scenarios.md) defines eleven synthetic scenarios and their expected observable behavior. The author packet and generated image are in [fixtures](fixtures/). The figure-generation script uses Pillow; it is development tooling, not a runtime dependency of the installed skill. Run `python3 scripts/make_visual_fixture.py` with Pillow available to reproduce it.
 
 For a blind test, give an evaluator only the skill, relevant references, and the raw scenario/artifacts; withhold the expected criteria and other evaluation outputs. Ask for the actual review, then compare the result with the criteria. Preserve failures and fixes in the release record instead of retroactively claiming an untested version passed.
 
