@@ -43,6 +43,8 @@ Policy changes and corrections should include the exact source, access date, jou
 
 For distribution details and the distinction between publication, installs, and security scans, see [publication research](research/ecosystem-and-publication.md). skills.sh inclusion is driven by CLI install telemetry according to its [FAQ](https://www.skills.sh/docs/faq); no listing or audit result is implied merely by this README.
 
+The skill is now [listed on skills.sh](https://skills.sh/neovand/nature-review-skill/nature-research-review). Its observed Snyk audit warns about indirect prompt-injection risk from external manuscript content. The skill explicitly treats such content as data, and a targeted regression exercise was completed; the warning is not represented as cleared. See [verified publication and audit status](validation/publication-status.md).
+
 ## License
 
 Original skill instructions and repository tooling: MIT. Linked journal policies and research papers retain their own rights; this repository does not redistribute their full text or figures.
