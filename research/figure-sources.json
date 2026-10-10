@@ -1,0 +1,324 @@
+{
+  "schema_version": "1.0",
+  "scope": "Flagship Nature research Articles: figures, legends, image integrity and visual review",
+  "verified_on": "2026-10-10",
+  "method": "Opened official full pages or identified public sections, cross-checked submission stages and recorded conflicts. Research/community recommendations remain distinct from journal requirements. No third-party skill is used as policy evidence.",
+  "copyright_note": "Evidence is concise paraphrase with precise section locators; no substantial source text is reproduced. Source budgets are shared with other repository ledgers for identical URLs.",
+  "sources": [
+    {
+      "id": "F01",
+      "title": "Nature — Initial submission",
+      "url": "https://www.nature.com/nature/for-authors/initial-submission",
+      "accessed": "2026-10-10",
+      "authority": "official_flagship_journal",
+      "access": "full_page",
+      "section": "Figures; Main manuscript",
+      "evidence_paraphrase": "Review images must be assessable; production and caption guidance appears separately.",
+      "supports": [
+        "initial-versus-production distinction",
+        "legend structure",
+        "legend-length conflict",
+        "width conflict"
+      ],
+      "shared_source": "Also covered as N05; avoid duplicating its full instructions.",
+      "retrieval_note": "Cookie redirect resolved by adding error=cookies_not_supported to the canonical URL.",
+      "scope": "Flagship Nature Article initial-submission figures and preliminary final-preparation advice"
+    },
+    {
+      "id": "F02",
+      "title": "Nature — Formatting guide",
+      "url": "https://www.nature.com/nature/for-authors/formatting-guide",
+      "accessed": "2026-10-10",
+      "authority": "official_flagship_journal",
+      "access": "full_page",
+      "section": "Figure legends",
+      "evidence_paraphrase": "Legend limit differs from F01.",
+      "supports": [
+        "legend-length conflict",
+        "legend definitions for error bars and statistics"
+      ],
+      "shared_source": "Also covered as N01; detailed format rules are deliberately not duplicated here.",
+      "scope": "Flagship Nature Article figure legends: length conflict and statistical definitions"
+    },
+    {
+      "id": "F03",
+      "title": "Nature — Final submission",
+      "url": "https://www.nature.com/nature/for-authors/final-submission",
+      "accessed": "2026-10-10",
+      "authority": "official_flagship_journal",
+      "access": "full_page",
+      "section": "Electronic image formats; Extended data display items",
+      "evidence_paraphrase": "Some raster formats are accepted; Extended Data page dimensions differ from F06.",
+      "supports": [
+        "main-file-format conflict",
+        "Extended Data sizing ambiguity"
+      ],
+      "shared_source": "Also covered as N06. Final-submission instructions apply after acceptance in principle and an editor's production-file request.",
+      "scope": "Flagship Nature production files after acceptance in principle and editor request"
+    },
+    {
+      "id": "F04",
+      "title": "Nature research figure guide — Preparing figures: our specifications",
+      "url": "https://research-figure-guide.nature.com/figures/preparing-figures-our-specifications/",
+      "accessed": "2026-10-10",
+      "authority": "official_flagship_figure_guide",
+      "access": "full_page",
+      "section": "Graphs / We require; Images / Colour space, Image resolution, Scale bars; Text / Font choices; Exporting",
+      "evidence_paraphrase": "Specifies axes, lettering, accessible colours and editable scale bars. Image resolution and Exporting give different minima.",
+      "supports": [
+        "axis and type specifications",
+        "8-point panel-label exception",
+        "image-resolution conflict",
+        "RGB recommendation",
+        "scale-bar preparation"
+      ],
+      "scope_note": "Image resolution says 300 dpi minimum; Exporting says 450. Apply stage-aware checks and do not use dpi to assess vector objects.",
+      "scope": "Flagship Nature research-figure production specifications, subject to stage and recorded conflicts"
+    },
+    {
+      "id": "F05",
+      "title": "Nature research figure guide — Building and exporting figure panels",
+      "url": "https://research-figure-guide.nature.com/figures/building-and-exporting-figure-panels/",
+      "accessed": "2026-10-10",
+      "authority": "official_flagship_figure_guide",
+      "access": "full_page",
+      "section": "Figure sizing; Panel arrangement; Accessibility; Main figure accepted formats; Extended Data accepted formats",
+      "evidence_paraphrase": "Gives print sizing, accessible visual keys, editable main artwork and separate Extended Data export settings.",
+      "supports": [
+        "print dimensions",
+        "layout and colour guidance",
+        "main-file-format conflict",
+        "Extended Data RGB and resolution cap"
+      ],
+      "scope_note": "Its short Fonts list omits the panel-label exception explicitly present in F04. Formats conflict with F03; recheck production instructions before rejection.",
+      "scope": "Flagship Nature main and Extended Data production artwork, with separate requirements"
+    },
+    {
+      "id": "F06",
+      "title": "Nature research figure guide — Extended data formatting guidelines",
+      "url": "https://research-figure-guide.nature.com/figures/extended-data-formatting-guidelines/",
+      "accessed": "2026-10-10",
+      "authority": "official_flagship_figure_guide",
+      "access": "full_page",
+      "section": "Opening paragraph; Figure sizing & positioning; File formats",
+      "evidence_paraphrase": "Ten display items; single-item layout with a possible separate legend page; specified flattened delivery formats and size limit.",
+      "supports": [
+        "Extended Data item count",
+        "file delivery",
+        "exception for legend overflow",
+        "Extended Data sizing ambiguity"
+      ],
+      "scope_note": "Text calls 180 mm wide by 170 mm tall maximum page dimensions; image alt text reverses them. F03 gives a larger page. An artwork-versus-page explanation is only an inference, not verified policy.",
+      "scope": "Flagship Nature Extended Data display-item production and recorded sizing conflicts"
+    },
+    {
+      "id": "F07",
+      "title": "Nature — Image integrity and standards",
+      "url": "https://www.nature.com/nature/editorial-policies/image-integrity",
+      "accessed": "2026-10-10",
+      "authority": "official_journal_policy",
+      "access": "full_page",
+      "section": "Opening policy paragraphs; Electrophoretic gels and blots; Microscopy",
+      "evidence_paraphrase": "Requires faithful image processing, relevant disclosure, identifiable composites and controls, and unprocessed life-science gel/blot originals at final acceptance.",
+      "supports": [
+        "image-processing checks",
+        "controls and lane rearrangements",
+        "raw gel requirement",
+        "composite ambiguity"
+      ],
+      "ambiguity": "The isolated microscopy line about grouping cells from multiple fields conflicts with surrounding restrictions. Do not turn it into an instruction to assemble an undisclosed field.",
+      "retrieval_note": "Full page retrieved with error=cookies_not_supported query.",
+      "scope": "Nature image-integrity policy; final raw gel requirement scoped to life-science papers"
+    },
+    {
+      "id": "F08",
+      "title": "Nature research figure guide — Image Integrity",
+      "url": "https://research-figure-guide.nature.com/figures/image-integrity/",
+      "accessed": "2026-10-10",
+      "authority": "official_flagship_figure_guide",
+      "access": "full_page",
+      "section": "Preparing images; Photoshop; Gels",
+      "evidence_paraphrase": "Prohibits generative AI in figures, including content-aware editing, and specifies boundaries, reuse labels and original gel information.",
+      "supports": [
+        "no generative figure production by default",
+        "reuse and splice review",
+        "uncropped gels",
+        "preserving bands and relative intensities"
+      ],
+      "scope_note": "The prohibition is broader than data repair. Do not assume schematics or diagrams are exempt; unusual contexts need explicit editorial direction and current policy verification.",
+      "scope": "Flagship Nature research figures, image integrity and figure-generation restrictions"
+    },
+    {
+      "id": "F09",
+      "title": "Nature Portfolio Reporting Summary — flattened reference copy",
+      "url": "https://www.nature.com/documents/nr-reporting-summary-flat.pdf",
+      "accessed": "2026-10-10",
+      "authority": "official_reporting_form",
+      "access": "full_pdf_text",
+      "section": "Page 1 / Statistics; page 2 / Field-specific reporting",
+      "evidence_paraphrase": "Enumerates statistical reporting items and allows their placement in legends, tables, main text or Methods. The applicable study-field form must be selected.",
+      "supports": [
+        "statistics crosswalk",
+        "caption-versus-Methods distinction",
+        "scope-specific reporting"
+      ],
+      "version_note": "Retrieved PDF title is nr-reporting-summary-Aug-2023-extended.pdf. Do not claim this reference copy is the latest interactive submission form; retrieve the live author-linked form when preparing submission.",
+      "retrieval_note": "The interactive nr-reporting-summary.pdf timed out. The canonical flattened reference copy opened successfully; the older April-2023-flat copy was not used as the final authority.",
+      "scope": "Applicable Nature Portfolio study-field reporting; flattened reference form, not verified current interactive form"
+    },
+    {
+      "id": "F10",
+      "title": "Beyond Bar and Line Graphs: Time for a New Data Presentation Paradigm",
+      "authors": "Weissgerber TL, Milic NM, Winham SJ, Garovic VD",
+      "year": 2015,
+      "doi": "10.1371/journal.pbio.1002128",
+      "url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1002128",
+      "accessed": "2026-10-10",
+      "authority": "primary_research_and_methodological_recommendation",
+      "access": "full_article",
+      "section": "Introduction; Figures 1–2; Recommendations for a New Data Presentation Paradigm",
+      "evidence_paraphrase": "Examples show distinct data distributions and pairing obscured by similar summaries; recommends displaying small continuous datasets more fully.",
+      "supports": [
+        "observation-level and paired-data display recommendations"
+      ],
+      "scope_note": "The systematic review concerns physiology journals and small continuous datasets. It does not establish a blanket ban on bars or lines, nor a Nature submission rule.",
+      "scope": "External scientific recommendation based on small continuous datasets and physiology research; not journal policy"
+    },
+    {
+      "id": "F11",
+      "title": "The misuse of colour in science communication",
+      "authors": "Crameri F, Shephard GE, Heron PJ",
+      "year": 2020,
+      "doi": "10.1038/s41467-020-19160-7",
+      "url": "https://www.nature.com/articles/s41467-020-19160-7",
+      "accessed": "2026-10-10",
+      "authority": "primary_methodological_article",
+      "access": "full_article",
+      "section": "The importance of colour to prevent data distortion; Design and implementation of scientifically derived colour maps; Figures 5–6",
+      "evidence_paraphrase": "Discusses perceptual distortion and matching colour-map type to data, including a central reference and cyclic quantities; stresses showing the scale.",
+      "supports": [
+        "data-appropriate colour encoding",
+        "perceptual ordering",
+        "colour-bar review"
+      ],
+      "scope_note": "Design guidance, not a flagship Nature requirement. Do not apply quantitative colour-map criteria indiscriminately to photographic colour or categorical labels.",
+      "scope": "External scientific colour-map methodology and guidance; not flagship journal policy"
+    },
+    {
+      "id": "F12",
+      "title": "QUAREP-LiMi WG12 — Image format",
+      "url": "https://quarep-limi.github.io/WG12_checklists_for_image_publishing/image_publishing/1_image_format.html",
+      "accessed": "2026-10-10",
+      "authority": "primary_community_checklist",
+      "access": "full_page",
+      "section": "Minimal: Focus on relevant content; Indicate position of zoom-view/inset; Show images of the range of described phenotype",
+      "evidence_paraphrase": "Recommends aspect-ratio preservation, identifiable insets and examples that communicate observed variability.",
+      "supports": [
+        "microscopy display review questions"
+      ],
+      "scope_note": "Primary companion resource linked by F14; light-microscopy guidance rather than mandatory Nature policy.",
+      "scope": "External community light-microscopy display guidance; not mandatory journal policy"
+    },
+    {
+      "id": "F13",
+      "title": "QUAREP-LiMi WG12 — Image colors and channels",
+      "url": "https://quarep-limi.github.io/WG12_checklists_for_image_publishing/image_publishing/2_image_colors_channels.html",
+      "accessed": "2026-10-10",
+      "authority": "primary_community_checklist",
+      "access": "full_page",
+      "section": "Minimal: Annotation of channels; Adjust brightness/contrast; Image comparison; Multi-color. Recommended: Provide intensity scales",
+      "evidence_paraphrase": "Recommends channel identification, consistent settings, avoiding clipped information, separated grayscale channels and intensity scales.",
+      "supports": [
+        "microscopy channel and display-setting review"
+      ],
+      "scope_note": "Community guidance; proposed changes still require scientific context and provenance.",
+      "scope": "External community light-microscopy channel and display-setting guidance; not mandatory journal policy"
+    },
+    {
+      "id": "F14",
+      "title": "Community-developed checklists for publishing images and image analyses",
+      "authors": "Schmied C et al.",
+      "year_online": 2023,
+      "year_volume": 2024,
+      "doi": "10.1038/s41592-023-01987-9",
+      "url": "https://www.nature.com/articles/s41592-023-01987-9",
+      "accessed": "2026-10-10",
+      "authority": "primary_community_perspective",
+      "access": "public_metadata_and_data_availability; subscription_body_not_relied_on",
+      "section": "Data availability; About this article",
+      "evidence_paraphrase": "Identifies the authors' companion checklist resource and its archived printable files.",
+      "supports": [
+        "provenance of F12 and F13"
+      ],
+      "scope_note": "The public resource supplies the detailed evidence; this ledger does not imply full access to the article body.",
+      "scope": "Primary provenance for external community microscopy checklists; public metadata and availability only"
+    },
+    {
+      "id": "F15",
+      "title": "Error bars",
+      "authors": "Krzywinski M, Altman N",
+      "year": 2013,
+      "doi": "10.1038/nmeth.2659",
+      "url": "https://www.nature.com/articles/nmeth.2659",
+      "accessed": "2026-10-10",
+      "authority": "primary_expert_statistical_exposition",
+      "access": "public_standfirst_and_figure_titles_only",
+      "section": "Standfirst; Figure 1 title",
+      "evidence_paraphrase": "Warns of misinterpretations of error bars and significance inferred from their overlap.",
+      "supports": [
+        "do not infer significance by visual overlap alone"
+      ],
+      "scope_note": "No numerical overlap rule or full-paper statistical derivation was imported from subscription-only content.",
+      "scope": "External statistical exposition; public warning about error-bar interpretation only"
+    }
+  ],
+  "unresolved_questions": [
+    {
+      "topic": "Legend word count",
+      "sources": [
+        "F01",
+        "F02"
+      ],
+      "action": "Retain conflicting limits visibly; use a conservative drafting target without falsely declaring universal noncompliance."
+    },
+    {
+      "topic": "Artwork widths and accepted raster formats",
+      "sources": [
+        "F01",
+        "F03",
+        "F05"
+      ],
+      "action": "Use current production instructions for the manuscript; do not force costly conversions solely from inconsistent generic pages."
+    },
+    {
+      "topic": "Main-image resolution",
+      "sources": [
+        "F04"
+      ],
+      "action": "Record the internal Image resolution versus Exporting discrepancy; use genuine source resolution and verify production instructions."
+    },
+    {
+      "topic": "Extended Data artwork versus page size",
+      "sources": [
+        "F03",
+        "F06"
+      ],
+      "action": "Treat an artwork-versus-page explanation as unverified inference; confirm layout with production."
+    },
+    {
+      "topic": "Microscopy composite wording",
+      "sources": [
+        "F07",
+        "F08"
+      ],
+      "action": "Preserve disclosure and original provenance; do not operationalize the internally conflicting isolated sentence."
+    },
+    {
+      "topic": "Live reporting form",
+      "sources": [
+        "F09"
+      ],
+      "action": "The interactive form was unavailable during this audit; recheck the author-linked current version at submission."
+    }
+  ]
+}

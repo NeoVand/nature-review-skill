@@ -1,0 +1,4 @@
+interface:
+  display_name: "Nature Research Review"
+  short_description: "Evidence-grounded Nature Article and figure review"
+  default_prompt: "Use $nature-research-review to assess my Nature Article draft, inspect every supplied figure panel, and provide source-backed scientific and prose recommendations."

@@ -1,0 +1,761 @@
+{
+  "schema_version": 1,
+  "audit_date": "2026-10-10",
+  "notice": "Source index, not immutable policy. Reopen current sources before journal-specific advice. Operational heuristics are identified in the linked guides.",
+  "sources": [
+    {
+      "id": "F01",
+      "title": "Nature — Initial submission",
+      "url": "https://www.nature.com/nature/for-authors/initial-submission",
+      "accessed": "2026-10-10",
+      "authority": "official_flagship_journal",
+      "access": "full_page",
+      "section": "Figures; Main manuscript",
+      "evidence_paraphrase": "Review images must be assessable; production and caption guidance appears separately.",
+      "supports": [
+        "initial-versus-production distinction",
+        "legend structure",
+        "legend-length conflict",
+        "width conflict"
+      ],
+      "shared_source": "Also covered as N05; avoid duplicating its full instructions.",
+      "retrieval_note": "Cookie redirect resolved by adding error=cookies_not_supported to the canonical URL.",
+      "scope": "Flagship Nature Article initial-submission figures and preliminary final-preparation advice",
+      "audit_manifest": "figure-sources.json"
+    },
+    {
+      "id": "F02",
+      "title": "Nature — Formatting guide",
+      "url": "https://www.nature.com/nature/for-authors/formatting-guide",
+      "accessed": "2026-10-10",
+      "authority": "official_flagship_journal",
+      "access": "full_page",
+      "section": "Figure legends",
+      "evidence_paraphrase": "Legend limit differs from F01.",
+      "supports": [
+        "legend-length conflict",
+        "legend definitions for error bars and statistics"
+      ],
+      "shared_source": "Also covered as N01; detailed format rules are deliberately not duplicated here.",
+      "scope": "Flagship Nature Article figure legends: length conflict and statistical definitions",
+      "audit_manifest": "figure-sources.json"
+    },
+    {
+      "id": "F03",
+      "title": "Nature — Final submission",
+      "url": "https://www.nature.com/nature/for-authors/final-submission",
+      "accessed": "2026-10-10",
+      "authority": "official_flagship_journal",
+      "access": "full_page",
+      "section": "Electronic image formats; Extended data display items",
+      "evidence_paraphrase": "Some raster formats are accepted; Extended Data page dimensions differ from F06.",
+      "supports": [
+        "main-file-format conflict",
+        "Extended Data sizing ambiguity"
+      ],
+      "shared_source": "Also covered as N06. Final-submission instructions apply after acceptance in principle and an editor's production-file request.",
+      "scope": "Flagship Nature production files after acceptance in principle and editor request",
+      "audit_manifest": "figure-sources.json"
+    },
+    {
+      "id": "F04",
+      "title": "Nature research figure guide — Preparing figures: our specifications",
+      "url": "https://research-figure-guide.nature.com/figures/preparing-figures-our-specifications/",
+      "accessed": "2026-10-10",
+      "authority": "official_flagship_figure_guide",
+      "access": "full_page",
+      "section": "Graphs / We require; Images / Colour space, Image resolution, Scale bars; Text / Font choices; Exporting",
+      "evidence_paraphrase": "Specifies axes, lettering, accessible colours and editable scale bars. Image resolution and Exporting give different minima.",
+      "supports": [
+        "axis and type specifications",
+        "8-point panel-label exception",
+        "image-resolution conflict",
+        "RGB recommendation",
+        "scale-bar preparation"
+      ],
+      "scope_note": "Image resolution says 300 dpi minimum; Exporting says 450. Apply stage-aware checks and do not use dpi to assess vector objects.",
+      "scope": "Flagship Nature research-figure production specifications, subject to stage and recorded conflicts",
+      "audit_manifest": "figure-sources.json"
+    },
+    {
+      "id": "F05",
+      "title": "Nature research figure guide — Building and exporting figure panels",
+      "url": "https://research-figure-guide.nature.com/figures/building-and-exporting-figure-panels/",
+      "accessed": "2026-10-10",
+      "authority": "official_flagship_figure_guide",
+      "access": "full_page",
+      "section": "Figure sizing; Panel arrangement; Accessibility; Main figure accepted formats; Extended Data accepted formats",
+      "evidence_paraphrase": "Gives print sizing, accessible visual keys, editable main artwork and separate Extended Data export settings.",
+      "supports": [
+        "print dimensions",
+        "layout and colour guidance",
+        "main-file-format conflict",
+        "Extended Data RGB and resolution cap"
+      ],
+      "scope_note": "Its short Fonts list omits the panel-label exception explicitly present in F04. Formats conflict with F03; recheck production instructions before rejection.",
+      "scope": "Flagship Nature main and Extended Data production artwork, with separate requirements",
+      "audit_manifest": "figure-sources.json"
+    },
+    {
+      "id": "F06",
+      "title": "Nature research figure guide — Extended data formatting guidelines",
+      "url": "https://research-figure-guide.nature.com/figures/extended-data-formatting-guidelines/",
+      "accessed": "2026-10-10",
+      "authority": "official_flagship_figure_guide",
+      "access": "full_page",
+      "section": "Opening paragraph; Figure sizing & positioning; File formats",
+      "evidence_paraphrase": "Ten display items; single-item layout with a possible separate legend page; specified flattened delivery formats and size limit.",
+      "supports": [
+        "Extended Data item count",
+        "file delivery",
+        "exception for legend overflow",
+        "Extended Data sizing ambiguity"
+      ],
+      "scope_note": "Text calls 180 mm wide by 170 mm tall maximum page dimensions; image alt text reverses them. F03 gives a larger page. An artwork-versus-page explanation is only an inference, not verified policy.",
+      "scope": "Flagship Nature Extended Data display-item production and recorded sizing conflicts",
+      "audit_manifest": "figure-sources.json"
+    },
+    {
+      "id": "F07",
+      "title": "Nature — Image integrity and standards",
+      "url": "https://www.nature.com/nature/editorial-policies/image-integrity",
+      "accessed": "2026-10-10",
+      "authority": "official_journal_policy",
+      "access": "full_page",
+      "section": "Opening policy paragraphs; Electrophoretic gels and blots; Microscopy",
+      "evidence_paraphrase": "Requires faithful image processing, relevant disclosure, identifiable composites and controls, and unprocessed life-science gel/blot originals at final acceptance.",
+      "supports": [
+        "image-processing checks",
+        "controls and lane rearrangements",
+        "raw gel requirement",
+        "composite ambiguity"
+      ],
+      "ambiguity": "The isolated microscopy line about grouping cells from multiple fields conflicts with surrounding restrictions. Do not turn it into an instruction to assemble an undisclosed field.",
+      "retrieval_note": "Full page retrieved with error=cookies_not_supported query.",
+      "scope": "Nature image-integrity policy; final raw gel requirement scoped to life-science papers",
+      "audit_manifest": "figure-sources.json"
+    },
+    {
+      "id": "F08",
+      "title": "Nature research figure guide — Image Integrity",
+      "url": "https://research-figure-guide.nature.com/figures/image-integrity/",
+      "accessed": "2026-10-10",
+      "authority": "official_flagship_figure_guide",
+      "access": "full_page",
+      "section": "Preparing images; Photoshop; Gels",
+      "evidence_paraphrase": "Prohibits generative AI in figures, including content-aware editing, and specifies boundaries, reuse labels and original gel information.",
+      "supports": [
+        "no generative figure production by default",
+        "reuse and splice review",
+        "uncropped gels",
+        "preserving bands and relative intensities"
+      ],
+      "scope_note": "The prohibition is broader than data repair. Do not assume schematics or diagrams are exempt; unusual contexts need explicit editorial direction and current policy verification.",
+      "scope": "Flagship Nature research figures, image integrity and figure-generation restrictions",
+      "audit_manifest": "figure-sources.json"
+    },
+    {
+      "id": "F09",
+      "title": "Nature Portfolio Reporting Summary — flattened reference copy",
+      "url": "https://www.nature.com/documents/nr-reporting-summary-flat.pdf",
+      "accessed": "2026-10-10",
+      "authority": "official_reporting_form",
+      "access": "full_pdf_text",
+      "section": "Page 1 / Statistics; page 2 / Field-specific reporting",
+      "evidence_paraphrase": "Enumerates statistical reporting items and allows their placement in legends, tables, main text or Methods. The applicable study-field form must be selected.",
+      "supports": [
+        "statistics crosswalk",
+        "caption-versus-Methods distinction",
+        "scope-specific reporting"
+      ],
+      "version_note": "Retrieved PDF title is nr-reporting-summary-Aug-2023-extended.pdf. Do not claim this reference copy is the latest interactive submission form; retrieve the live author-linked form when preparing submission.",
+      "retrieval_note": "The interactive nr-reporting-summary.pdf timed out. The canonical flattened reference copy opened successfully; the older April-2023-flat copy was not used as the final authority.",
+      "scope": "Applicable Nature Portfolio study-field reporting; flattened reference form, not verified current interactive form",
+      "audit_manifest": "figure-sources.json"
+    },
+    {
+      "id": "F10",
+      "title": "Beyond Bar and Line Graphs: Time for a New Data Presentation Paradigm",
+      "authors": "Weissgerber TL, Milic NM, Winham SJ, Garovic VD",
+      "year": 2015,
+      "doi": "10.1371/journal.pbio.1002128",
+      "url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1002128",
+      "accessed": "2026-10-10",
+      "authority": "primary_research_and_methodological_recommendation",
+      "access": "full_article",
+      "section": "Introduction; Figures 1–2; Recommendations for a New Data Presentation Paradigm",
+      "evidence_paraphrase": "Examples show distinct data distributions and pairing obscured by similar summaries; recommends displaying small continuous datasets more fully.",
+      "supports": [
+        "observation-level and paired-data display recommendations"
+      ],
+      "scope_note": "The systematic review concerns physiology journals and small continuous datasets. It does not establish a blanket ban on bars or lines, nor a Nature submission rule.",
+      "scope": "External scientific recommendation based on small continuous datasets and physiology research; not journal policy",
+      "audit_manifest": "figure-sources.json"
+    },
+    {
+      "id": "F11",
+      "title": "The misuse of colour in science communication",
+      "authors": "Crameri F, Shephard GE, Heron PJ",
+      "year": 2020,
+      "doi": "10.1038/s41467-020-19160-7",
+      "url": "https://www.nature.com/articles/s41467-020-19160-7",
+      "accessed": "2026-10-10",
+      "authority": "primary_methodological_article",
+      "access": "full_article",
+      "section": "The importance of colour to prevent data distortion; Design and implementation of scientifically derived colour maps; Figures 5–6",
+      "evidence_paraphrase": "Discusses perceptual distortion and matching colour-map type to data, including a central reference and cyclic quantities; stresses showing the scale.",
+      "supports": [
+        "data-appropriate colour encoding",
+        "perceptual ordering",
+        "colour-bar review"
+      ],
+      "scope_note": "Design guidance, not a flagship Nature requirement. Do not apply quantitative colour-map criteria indiscriminately to photographic colour or categorical labels.",
+      "scope": "External scientific colour-map methodology and guidance; not flagship journal policy",
+      "audit_manifest": "figure-sources.json"
+    },
+    {
+      "id": "F12",
+      "title": "QUAREP-LiMi WG12 — Image format",
+      "url": "https://quarep-limi.github.io/WG12_checklists_for_image_publishing/image_publishing/1_image_format.html",
+      "accessed": "2026-10-10",
+      "authority": "primary_community_checklist",
+      "access": "full_page",
+      "section": "Minimal: Focus on relevant content; Indicate position of zoom-view/inset; Show images of the range of described phenotype",
+      "evidence_paraphrase": "Recommends aspect-ratio preservation, identifiable insets and examples that communicate observed variability.",
+      "supports": [
+        "microscopy display review questions"
+      ],
+      "scope_note": "Primary companion resource linked by F14; light-microscopy guidance rather than mandatory Nature policy.",
+      "scope": "External community light-microscopy display guidance; not mandatory journal policy",
+      "audit_manifest": "figure-sources.json"
+    },
+    {
+      "id": "F13",
+      "title": "QUAREP-LiMi WG12 — Image colors and channels",
+      "url": "https://quarep-limi.github.io/WG12_checklists_for_image_publishing/image_publishing/2_image_colors_channels.html",
+      "accessed": "2026-10-10",
+      "authority": "primary_community_checklist",
+      "access": "full_page",
+      "section": "Minimal: Annotation of channels; Adjust brightness/contrast; Image comparison; Multi-color. Recommended: Provide intensity scales",
+      "evidence_paraphrase": "Recommends channel identification, consistent settings, avoiding clipped information, separated grayscale channels and intensity scales.",
+      "supports": [
+        "microscopy channel and display-setting review"
+      ],
+      "scope_note": "Community guidance; proposed changes still require scientific context and provenance.",
+      "scope": "External community light-microscopy channel and display-setting guidance; not mandatory journal policy",
+      "audit_manifest": "figure-sources.json"
+    },
+    {
+      "id": "F14",
+      "title": "Community-developed checklists for publishing images and image analyses",
+      "authors": "Schmied C et al.",
+      "year_online": 2023,
+      "year_volume": 2024,
+      "doi": "10.1038/s41592-023-01987-9",
+      "url": "https://www.nature.com/articles/s41592-023-01987-9",
+      "accessed": "2026-10-10",
+      "authority": "primary_community_perspective",
+      "access": "public_metadata_and_data_availability; subscription_body_not_relied_on",
+      "section": "Data availability; About this article",
+      "evidence_paraphrase": "Identifies the authors' companion checklist resource and its archived printable files.",
+      "supports": [
+        "provenance of F12 and F13"
+      ],
+      "scope_note": "The public resource supplies the detailed evidence; this ledger does not imply full access to the article body.",
+      "scope": "Primary provenance for external community microscopy checklists; public metadata and availability only",
+      "audit_manifest": "figure-sources.json"
+    },
+    {
+      "id": "F15",
+      "title": "Error bars",
+      "authors": "Krzywinski M, Altman N",
+      "year": 2013,
+      "doi": "10.1038/nmeth.2659",
+      "url": "https://www.nature.com/articles/nmeth.2659",
+      "accessed": "2026-10-10",
+      "authority": "primary_expert_statistical_exposition",
+      "access": "public_standfirst_and_figure_titles_only",
+      "section": "Standfirst; Figure 1 title",
+      "evidence_paraphrase": "Warns of misinterpretations of error bars and significance inferred from their overlap.",
+      "supports": [
+        "do not infer significance by visual overlap alone"
+      ],
+      "scope_note": "No numerical overlap rule or full-paper statistical derivation was imported from subscription-only content.",
+      "scope": "External statistical exposition; public warning about error-bar interpretation only",
+      "audit_manifest": "figure-sources.json"
+    },
+    {
+      "id": "N01",
+      "title": "Formatting guide | Nature",
+      "url": "https://www.nature.com/nature/for-authors/formatting-guide",
+      "accessed": "2026-10-10",
+      "type": "official_journal_guidance",
+      "scope": "Nature Articles; Readability; References; Articles",
+      "claim": "Use qualified Article guidance and the journal's citation style.",
+      "evidence_excerpt": "ideally of no more than 200 words",
+      "verification": "Complete substantive page read; sections and exceptions checked.",
+      "cautions": [
+        "Some guidance is typical or preferred, not mandatory.",
+        "Figure/caption details conflict with other official pages; see figure reference."
+      ],
+      "audit_manifest": "nature-sources.json"
+    },
+    {
+      "id": "N02",
+      "title": "Editorial criteria and processes | Nature",
+      "url": "https://www.nature.com/nature/for-authors/editorial-criteria-and-processes",
+      "accessed": "2026-10-10",
+      "type": "official_journal_guidance",
+      "scope": "Criteria; editorial triage; referee reports; decision letters",
+      "claim": "Editors assess broad significance; revision letters and substantive objections matter.",
+      "evidence_excerpt": "not by a “voting” procedure",
+      "verification": "Complete substantive page read.",
+      "cautions": [
+        "Transparent-review opt-in text is superseded for new submissions by N09; do not generalize it."
+      ],
+      "audit_manifest": "nature-sources.json"
+    },
+    {
+      "id": "N03",
+      "title": "Policies and Processes | Nature",
+      "url": "https://www.nature.com/nature/for-referees/policies-and-processes",
+      "accessed": "2026-10-10",
+      "type": "official_journal_referee_guidance",
+      "scope": "Criteria for publication; review process; confidentiality",
+      "claim": "Technical and significance arguments determine recommendations; preprints do not themselves compromise novelty.",
+      "evidence_excerpt": "not a matter of counting votes or numerical rank assessments",
+      "verification": "Complete substantive page read using Nature's cookies-not-supported URL variant.",
+      "cautions": [
+        "Contains stale transparent-review opt-in wording.",
+        "AI wording must be checked against live policy and resolved before invited-review support."
+      ],
+      "audit_manifest": "nature-sources.json"
+    },
+    {
+      "id": "N04",
+      "title": "How to Write a Report | Nature",
+      "url": "https://www.nature.com/nature/for-referees/how-to-write-a-report",
+      "accessed": "2026-10-10",
+      "type": "official_journal_referee_guidance",
+      "scope": "Author-facing evaluation; ten assessment areas; expertise limitations",
+      "claim": "Assess evidence and limitations, including supplementary material; distinguish unassessed areas.",
+      "evidence_excerpt": "outside the scope of your expertise",
+      "verification": "Complete substantive page read using Nature's cookies-not-supported URL variant.",
+      "cautions": [
+        "Review-support workflow is not authorization to upload a confidential invited-review manuscript."
+      ],
+      "audit_manifest": "nature-sources.json"
+    },
+    {
+      "id": "N05",
+      "title": "Initial submission | Nature",
+      "url": "https://www.nature.com/nature/for-authors/initial-submission",
+      "accessed": "2026-10-10",
+      "type": "official_journal_guidance",
+      "scope": "Initial submission; main manuscript; methods; figures",
+      "claim": "Initial format is flexible; distinguish page-budget examples from limits.",
+      "evidence_excerpt": "Within reason, style and length will not influence consideration of a manuscript.",
+      "verification": "Complete substantive body read in search extraction and main sections confirmed by open.",
+      "cautions": [
+        "Contains final-figure advice inside initial-submission page; check stage.",
+        "Some captions and dimensions disagree with other official sources."
+      ],
+      "audit_manifest": "nature-sources.json"
+    },
+    {
+      "id": "N06",
+      "title": "Final submission | Nature",
+      "url": "https://www.nature.com/nature/for-authors/final-submission",
+      "accessed": "2026-10-10",
+      "type": "official_journal_guidance",
+      "scope": "Accepted-in-principle production files; text order; reference citations",
+      "claim": "Production-file rules apply when requested after acceptance in principle.",
+      "evidence_excerpt": "accepted in principle for publication",
+      "verification": "Complete substantive page read.",
+      "cautions": [
+        "Some artwork details conflict with linked specialist figure guidance; do not transfer blindly to initial submission."
+      ],
+      "audit_manifest": "nature-sources.json"
+    },
+    {
+      "id": "N07",
+      "title": "How to construct a Nature summary paragraph",
+      "url": "https://www.nature.com/documents/nature-summary-paragraph.pdf",
+      "accessed": "2026-10-10",
+      "published_or_updated": "2019-09",
+      "type": "official_journal_annotated_example",
+      "scope": "One-page summary model linked from current N01",
+      "claim": "Background, question, result, comparison and context form an annotated model, with editor-dependent length flexibility.",
+      "evidence_excerpt": "or their equivalent",
+      "verification": "Entire one-page PDF text read; screenshot requested.",
+      "cautions": [
+        "Example article is from 2005; model is guidance, not a universal sentence quota."
+      ],
+      "audit_manifest": "nature-sources.json"
+    },
+    {
+      "id": "N08",
+      "title": "Composition of a Nature research paper",
+      "url": "https://www.nature.com/documents/nature-paper-composition.pdf",
+      "accessed": "2026-10-10",
+      "type": "official_journal_diagram",
+      "scope": "Main paper; Methods; Extended Data; Supplementary Information",
+      "claim": "Components differ in publication format and copyediting treatment.",
+      "evidence_excerpt": "Figures should not be included in the Supplementary Information.",
+      "verification": "Entire one-page PDF text read; screenshot requested; current N01 still links this diagram.",
+      "cautions": [
+        "PDF bears an older production footer; use for component distinctions, not current artwork specifications."
+      ],
+      "audit_manifest": "nature-sources.json"
+    },
+    {
+      "id": "N09",
+      "title": "Transparent peer review to be extended to all of Nature’s research papers",
+      "url": "https://www.nature.com/articles/d41586-025-01880-9",
+      "doi": "10.1038/d41586-025-01880-9",
+      "accessed": "2026-10-10",
+      "published_or_updated": "2025-06-16",
+      "type": "official_journal_dated_policy_announcement",
+      "scope": "Nature research-article submissions from 16 June 2025",
+      "claim": "New submissions published as research articles include reviewer reports and author responses.",
+      "evidence_excerpt": "will automatically include a link to the reviewers’ reports and author responses",
+      "verification": "Policy statement verified in accessible lead paragraph on article page; remainder paywalled and not relied upon.",
+      "cautions": [
+        "Submission date matters; does not imply every historical paper has a public review file."
+      ],
+      "audit_manifest": "nature-sources.json"
+    },
+    {
+      "id": "N10",
+      "title": "Plagiarism and duplicate publication | Nature Portfolio",
+      "url": "https://www.nature.com/nature-portfolio/editorial-policies/plagiarism",
+      "accessed": "2026-10-10",
+      "type": "official_portfolio_policy",
+      "scope": "Due credit; text reuse; related publications; unpublished data",
+      "claim": "Credit prior intellectual and technical contributions and disclose related overlapping work.",
+      "evidence_excerpt": "properly describe the contribution of the earlier work",
+      "verification": "Complete substantive page read.",
+      "cautions": [
+        "Overlap needs contextual assessment, not automatic misconduct attribution."
+      ],
+      "audit_manifest": "nature-sources.json"
+    },
+    {
+      "id": "N11",
+      "title": "Forms and declarations | Nature",
+      "url": "https://www.nature.com/nature/for-authors/forms-and-declarations",
+      "accessed": "2026-10-10",
+      "type": "official_journal_guidance",
+      "scope": "Structures; forms and declarations",
+      "claim": "Specific structural-data tables are required where applicable.",
+      "evidence_excerpt": "include as Extended Data tables",
+      "verification": "Complete substantive page read; linked forms indexed, not treated as applicable to all papers.",
+      "audit_manifest": "nature-sources.json"
+    },
+    {
+      "id": "N12",
+      "title": "Nature Portfolio editorial policy checklist retirement notice",
+      "url": "https://www.nature.com/documents/nr-editorial-policy-checklist.pdf",
+      "accessed": "2026-10-10",
+      "type": "official_portfolio_notice",
+      "scope": "This specific former editorial policy checklist only",
+      "claim": "The former editorial policy checklist is retired.",
+      "evidence_excerpt": "This form is no longer required",
+      "verification": "Complete one-page four-line PDF read.",
+      "cautions": [
+        "Other reporting summaries and forms remain governed by their own policies."
+      ],
+      "audit_manifest": "nature-sources.json"
+    },
+    {
+      "id": "R01",
+      "title": "Artificial Intelligence (AI)",
+      "url": "https://www.nature.com/nature/editorial-policies/ai",
+      "publisher": "Nature / Springer Nature",
+      "type": "official_policy",
+      "scope": "Nature-hosted AI policy; risk framework across authors, reviewers and editors",
+      "accessed": "2026-10-10",
+      "verified_via": "Full official HTML; cookie fallback query ?error=cookies_not_supported",
+      "locator": "Core expectations; Risk-assessment framework; Role-specific responsibilities",
+      "supports": [
+        "Human accountability, confidentiality and transparency; evaluative assistance needs oversight; peer-review judgment cannot be delegated."
+      ],
+      "limitations": "Does not establish that this agent or any particular service is editor-approved. Compare the stricter upload wording in R02.",
+      "quoted_words": 0,
+      "audit_manifest": "integrity-sources.json"
+    },
+    {
+      "id": "R02",
+      "title": "Peer Review",
+      "url": "https://www.nature.com/nature/editorial-policies/peer-review",
+      "publisher": "Nature / Springer Nature",
+      "type": "official_policy",
+      "scope": "Nature-hosted peer-review policy",
+      "accessed": "2026-10-10",
+      "verified_via": "Full official HTML",
+      "locator": "Writing the review; AI use by peer reviewers; Peer-review publication policies",
+      "supports": [
+        "All submitted evidence and expertise limitations matter; criticisms need justification. The AI section says reviewers should not upload manuscripts and should disclose AI-supported evaluation."
+      ],
+      "limitations": "Upload wording is stricter than R01. This skill does not claim the apparent discrepancy has been adjudicated by Nature.",
+      "quoted_words": 0,
+      "audit_manifest": "integrity-sources.json"
+    },
+    {
+      "id": "R03",
+      "title": "Reporting standards and availability of data, materials, code and protocols",
+      "url": "https://www.nature.com/nature/editorial-policies/reporting-standards",
+      "publisher": "Nature / Springer Nature",
+      "type": "official_policy",
+      "scope": "Nature-hosted reporting and availability rules",
+      "accessed": "2026-10-10",
+      "verified_via": "Full official HTML; cookie fallback query ?error=cookies_not_supported",
+      "locator": "Reporting requirements; Availability of data; Mandates for specific datasets; Availability and peer review of computer code and algorithm",
+      "supports": [
+        "Study-specific reporting and deposition; data-access restrictions; central-code review and availability."
+      ],
+      "limitations": "Consult exact dataset/study branch, including special clinical rules in R06; not all data must be unrestricted.",
+      "quoted_words": 0,
+      "audit_manifest": "integrity-sources.json"
+    },
+    {
+      "id": "R04",
+      "title": "Nature Portfolio Reporting Summary (flat reference copy)",
+      "url": "https://www.nature.com/documents/nr-reporting-summary-flat.pdf",
+      "publisher": "Nature Portfolio",
+      "type": "official_reporting_form",
+      "scope": "Applicable life, behavioural/social, ecological/evolutionary/environmental science studies",
+      "accessed": "2026-10-10",
+      "verified_via": "Official seven-page PDF text; internal title nr-reporting-summary-Aug-2023-extended.pdf",
+      "locator": "Page 1 Statistics; pages 2–3 field-specific design; method-specific sections",
+      "supports": [
+        "Statistical reporting and design disclosures; form-completion help distinguishes irrelevant items from generic n/a answers."
+      ],
+      "limitations": "Refresh the live form for each review; not an all-fields universal requirement.",
+      "quoted_words": 0,
+      "audit_manifest": "integrity-sources.json"
+    },
+    {
+      "id": "R05",
+      "title": "Research Ethics",
+      "url": "https://www.nature.com/nature/editorial-policies/ethics-and-biosecurity",
+      "publisher": "Nature / Springer Nature",
+      "type": "official_policy",
+      "scope": "Human/animal research, population reporting, consent and related research ethics",
+      "accessed": "2026-10-10",
+      "verified_via": "Full official HTML; cookie fallback query ?error=cookies_not_supported",
+      "locator": "Animal research; Human participants research; Research on human populations; Sex and gender; Publishing images from human research participants",
+      "supports": [
+        "Approval/consent reporting, identifiable-image consent, animal-study reporting, respectful human-group terminology and sex/gender distinctions."
+      ],
+      "limitations": "Check the relevant subsection and justified exceptions; a missing statement alone does not prove misconduct. Clinical specifics may be more current in R06.",
+      "quoted_words": 0,
+      "audit_manifest": "integrity-sources.json"
+    },
+    {
+      "id": "R06",
+      "title": "Clinical Research",
+      "url": "https://www.nature.com/nature/editorial-policies/clinical-research",
+      "publisher": "Nature / Springer Nature",
+      "type": "official_policy",
+      "scope": "Clinical research; requirements depend on design",
+      "accessed": "2026-10-10",
+      "verified_via": "Full official HTML; cookie fallback query ?error=cookies_not_supported",
+      "locator": "Trial registration; Study protocol; Reporting guidelines; Data sharing",
+      "supports": [
+        "Registration and protocol/SAP assessment; CONSORT 2025 and design-specific standards, including TARGET; clinical custom-code availability."
+      ],
+      "limitations": "The skill's list is selective. Read the current source and applicable extensions, including AI-specific guidance, before checking a clinical manuscript.",
+      "quoted_words": 0,
+      "audit_manifest": "integrity-sources.json"
+    },
+    {
+      "id": "R07",
+      "title": "Authorship",
+      "url": "https://www.nature.com/nature/editorial-policies/authorship",
+      "publisher": "Nature / Springer Nature",
+      "type": "official_policy",
+      "scope": "Authorship and corresponding-author responsibilities",
+      "accessed": "2026-10-10",
+      "verified_via": "Full official HTML; cookie fallback query ?error=cookies_not_supported",
+      "locator": "Authorship",
+      "supports": [
+        "Contribution, approval and accountability; corresponding-author responsibilities for research outputs."
+      ],
+      "limitations": "Review observable disclosures; do not adjudicate contribution disputes from manuscript text alone.",
+      "quoted_words": 0,
+      "audit_manifest": "integrity-sources.json"
+    },
+    {
+      "id": "R08",
+      "title": "Competing interests",
+      "url": "https://www.nature.com/nature/editorial-policies/competing-interests",
+      "publisher": "Nature / Springer Nature",
+      "type": "official_policy",
+      "scope": "Financial/non-financial declarations; author and referee responsibilities",
+      "accessed": "2026-10-10",
+      "verified_via": "Full official HTML; cookie fallback query ?error=cookies_not_supported",
+      "locator": "Application to authors; Application to referees",
+      "supports": [
+        "Author declarations and reviewer notification of relevant interests; significant conflicts may require recusal."
+      ],
+      "limitations": "A disclosed interest alone is not proof of invalid science or automatic reviewer disqualification.",
+      "quoted_words": 0,
+      "audit_manifest": "integrity-sources.json"
+    },
+    {
+      "id": "R09",
+      "title": "GPT detectors are biased against non-native English writers",
+      "url": "https://doi.org/10.1016/j.patter.2023.100779",
+      "publisher": "Patterns / Cell Press",
+      "authors": "Weixin Liang, Mert Yuksekgonul, Yining Mao, Eric Wu and James Zou",
+      "year": 2023,
+      "type": "primary_empirical_evidence",
+      "scope": "Seven tested detectors and specified English essay samples; not a current universal detector benchmark",
+      "accessed": "2026-10-10",
+      "verified_via": "Search-tool extraction of original Cell Press article, including methods/sample description; DOI direct open intermittently failed",
+      "locator": "GPT detectors exhibit bias against non-native English authors",
+      "supports": [
+        "False-positive disparities in the evaluated setting; stylistic changes affected detector responses."
+      ],
+      "limitations": "Do not generalize the sample's numerical rates to Nature manuscripts, all writers or future detector versions. See differing later evidence R11.",
+      "quoted_words": 0,
+      "audit_manifest": "integrity-sources.json"
+    },
+    {
+      "id": "R10",
+      "title": "Testing of detection tools for AI-generated text",
+      "url": "https://doi.org/10.1007/s40979-023-00146-z",
+      "publisher": "International Journal for Educational Integrity / Springer Nature",
+      "authors": "Debora Weber-Wulff and colleagues",
+      "year": 2023,
+      "type": "primary_empirical_evidence",
+      "scope": "Fourteen evaluated tools and study-specific text cases",
+      "accessed": "2026-10-10",
+      "verified_via": "Full publisher HTML at https://link.springer.com/article/10.1007/s40979-023-00146-z",
+      "locator": "Abstract; methodology; discussion and limitations",
+      "supports": [
+        "Detection reliability problems and sensitivity to text transformation in the tested systems."
+      ],
+      "limitations": "Study-specific historical evaluation; not proof that detection is universally impossible.",
+      "quoted_words": 0,
+      "audit_manifest": "integrity-sources.json"
+    },
+    {
+      "id": "R11",
+      "title": "Different Time, Different Language: Revisiting the Bias Against Non-Native Speakers in GPT Detectors",
+      "url": "https://arxiv.org/abs/2602.05769",
+      "publisher": "arXiv",
+      "authors": "Adnan Al Ali, Jindřich Helcl and Jindřich Libovický",
+      "year": 2026,
+      "type": "primary_research_abstract",
+      "scope": "Czech-language evaluation; author-posted version lists acceptance at EACL 2026 Student Research Workshop",
+      "accessed": "2026-10-10",
+      "verified_via": "arXiv v1 metadata and abstract",
+      "locator": "Abstract; Comments; submission history",
+      "supports": [
+        "The authors report no systematic native/non-native bias across three detector families in their setting."
+      ],
+      "limitations": "Only the abstract was used here. Included as scope-limiting counterevidence, not certification of individual-document accuracy or a full methodological appraisal.",
+      "quoted_words": 0,
+      "audit_manifest": "integrity-sources.json"
+    },
+    {
+      "id": "R12",
+      "title": "What exactly is ‘N’ in cell culture and animal experiments?",
+      "url": "https://doi.org/10.1371/journal.pbio.2005282",
+      "publisher": "PLOS Biology",
+      "authors": "Stanley E. Lazic, Charlie J. Clarke-Williams and Marcus R. Munafò",
+      "year": 2018,
+      "type": "primary_methodological_article",
+      "scope": "Experimental units and pseudoreplication, with cell-culture and animal examples",
+      "accessed": "2026-10-10",
+      "verified_via": "Full publisher HTML at https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.2005282",
+      "locator": "Introduction; Defining biological, experimental and observational units; Box 2",
+      "supports": [
+        "Distinguishing inferential, experimental and measured entities clarifies sample size; nested measurements need not be independent replication."
+      ],
+      "limitations": "Apply to the actual design; not a universal prescription to average all hierarchical data or count every organism as an independent unit.",
+      "quoted_words": 0,
+      "audit_manifest": "integrity-sources.json"
+    },
+    {
+      "id": "R13",
+      "title": "American Statistical Association Releases Statement on Statistical Significance and P-Values",
+      "url": "https://www.amstat.org/asa/files/pdfs/p-valuestatement.pdf",
+      "publisher": "American Statistical Association",
+      "year": 2016,
+      "type": "primary_professional_statement",
+      "scope": "Six principles concerning interpretation and reporting of P values",
+      "accessed": "2026-10-10",
+      "verified_via": "Official ASA three-page PDF",
+      "locator": "Statement's six principles",
+      "supports": [
+        "P values are not hypothesis probabilities or effect sizes; scientific conclusions need more than a significance threshold."
+      ],
+      "limitations": "Does not ban P values, mandate Bayesian inference, or supply a design-specific analysis plan.",
+      "quoted_words": 0,
+      "audit_manifest": "integrity-sources.json"
+    },
+    {
+      "id": "R14",
+      "title": "Advancing regulatory variant effect prediction with AlphaGenome",
+      "url": "https://www.nature.com/articles/s41586-025-10014-0",
+      "publisher": "Nature",
+      "authors": "Žiga Avsec and colleagues",
+      "published_online": "2026-01-28",
+      "year": 2026,
+      "type": "published_article_exemplar",
+      "scope": "Computational regulatory-genomics prose example, not a general writing policy",
+      "accessed": "2026-10-10",
+      "verified_via": "Official HTML abstract, Main, performance overview, Discussion and selected legends",
+      "locator": "Performance overview; Discussion; Fig. 1 legend",
+      "supports": [
+        "Separates predictive tasks and evaluation regimes and states specific domain limitations."
+      ],
+      "limitations": "Used only for bounded observations about writing and claim scope; neither a full scientific review nor an authorship assessment.",
+      "quoted_words": 0,
+      "audit_manifest": "integrity-sources.json"
+    },
+    {
+      "id": "R15",
+      "title": "Quantum error correction below the surface code threshold",
+      "url": "https://www.nature.com/articles/s41586-024-08449-y",
+      "publisher": "Nature",
+      "authors": "Google Quantum AI and Collaborators",
+      "published_online": "2024-12-09",
+      "year": 2025,
+      "type": "published_article_exemplar",
+      "scope": "Experimental quantum-information prose example; issue year differs from online year",
+      "accessed": "2026-10-10",
+      "verified_via": "Current official HTML abstract, Main, closing discussion, change history",
+      "locator": "Abstract; equation (1) and definitions; closing discussion; Change history",
+      "supports": [
+        "Distinguishes measured quantum-memory behavior from conditional scaling implications and defines its performance quantities."
+      ],
+      "limitations": "Article has an April 2026 figure-label correction (R16); observation is not a universal field rule or independent validation.",
+      "quoted_words": 0,
+      "audit_manifest": "integrity-sources.json"
+    },
+    {
+      "id": "R16",
+      "title": "Author Correction: Quantum error correction below the surface code threshold",
+      "url": "https://www.nature.com/articles/s41586-026-10559-8",
+      "publisher": "Nature",
+      "authors": "Google Quantum AI and Collaborators",
+      "published_online": "2026-04-28",
+      "year": 2026,
+      "type": "official_correction",
+      "scope": "Fig. 3a of R15",
+      "accessed": "2026-10-10",
+      "verified_via": "Full official correction text",
+      "locator": "Correction paragraph",
+      "supports": [
+        "Fig. 3a axis/key labels were corrected in HTML and PDF."
+      ],
+      "limitations": "Do not infer other errors or misconduct from this correction.",
+      "quoted_words": 0,
+      "audit_manifest": "integrity-sources.json"
+    }
+  ]
+}

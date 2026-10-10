@@ -1,0 +1,153 @@
+{
+  "schema_version": 1,
+  "checked_on": "2026-10-10",
+  "scope": "Flagship Nature ordinary original-research Articles; shared Nature Portfolio policies only where identified",
+  "sources": [
+    {
+      "id": "N01",
+      "title": "Formatting guide | Nature",
+      "url": "https://www.nature.com/nature/for-authors/formatting-guide",
+      "accessed": "2026-10-10",
+      "type": "official_journal_guidance",
+      "scope": "Nature Articles; Readability; References; Articles",
+      "claim": "Use qualified Article guidance and the journal's citation style.",
+      "evidence_excerpt": "ideally of no more than 200 words",
+      "verification": "Complete substantive page read; sections and exceptions checked.",
+      "cautions": ["Some guidance is typical or preferred, not mandatory.", "Figure/caption details conflict with other official pages; see figure reference."]
+    },
+    {
+      "id": "N02",
+      "title": "Editorial criteria and processes | Nature",
+      "url": "https://www.nature.com/nature/for-authors/editorial-criteria-and-processes",
+      "accessed": "2026-10-10",
+      "type": "official_journal_guidance",
+      "scope": "Criteria; editorial triage; referee reports; decision letters",
+      "claim": "Editors assess broad significance; revision letters and substantive objections matter.",
+      "evidence_excerpt": "not by a “voting” procedure",
+      "verification": "Complete substantive page read.",
+      "cautions": ["Transparent-review opt-in text is superseded for new submissions by N09; do not generalize it."]
+    },
+    {
+      "id": "N03",
+      "title": "Policies and Processes | Nature",
+      "url": "https://www.nature.com/nature/for-referees/policies-and-processes",
+      "accessed": "2026-10-10",
+      "type": "official_journal_referee_guidance",
+      "scope": "Criteria for publication; review process; confidentiality",
+      "claim": "Technical and significance arguments determine recommendations; preprints do not themselves compromise novelty.",
+      "evidence_excerpt": "not a matter of counting votes or numerical rank assessments",
+      "verification": "Complete substantive page read using Nature's cookies-not-supported URL variant.",
+      "cautions": ["Contains stale transparent-review opt-in wording.", "AI wording must be checked against live policy and resolved before invited-review support."]
+    },
+    {
+      "id": "N04",
+      "title": "How to Write a Report | Nature",
+      "url": "https://www.nature.com/nature/for-referees/how-to-write-a-report",
+      "accessed": "2026-10-10",
+      "type": "official_journal_referee_guidance",
+      "scope": "Author-facing evaluation; ten assessment areas; expertise limitations",
+      "claim": "Assess evidence and limitations, including supplementary material; distinguish unassessed areas.",
+      "evidence_excerpt": "outside the scope of your expertise",
+      "verification": "Complete substantive page read using Nature's cookies-not-supported URL variant.",
+      "cautions": ["Review-support workflow is not authorization to upload a confidential invited-review manuscript."]
+    },
+    {
+      "id": "N05",
+      "title": "Initial submission | Nature",
+      "url": "https://www.nature.com/nature/for-authors/initial-submission",
+      "accessed": "2026-10-10",
+      "type": "official_journal_guidance",
+      "scope": "Initial submission; main manuscript; methods; figures",
+      "claim": "Initial format is flexible; distinguish page-budget examples from limits.",
+      "evidence_excerpt": "Within reason, style and length will not influence consideration of a manuscript.",
+      "verification": "Complete substantive body read in search extraction and main sections confirmed by open.",
+      "cautions": ["Contains final-figure advice inside initial-submission page; check stage.", "Some captions and dimensions disagree with other official sources."]
+    },
+    {
+      "id": "N06",
+      "title": "Final submission | Nature",
+      "url": "https://www.nature.com/nature/for-authors/final-submission",
+      "accessed": "2026-10-10",
+      "type": "official_journal_guidance",
+      "scope": "Accepted-in-principle production files; text order; reference citations",
+      "claim": "Production-file rules apply when requested after acceptance in principle.",
+      "evidence_excerpt": "accepted in principle for publication",
+      "verification": "Complete substantive page read.",
+      "cautions": ["Some artwork details conflict with linked specialist figure guidance; do not transfer blindly to initial submission."]
+    },
+    {
+      "id": "N07",
+      "title": "How to construct a Nature summary paragraph",
+      "url": "https://www.nature.com/documents/nature-summary-paragraph.pdf",
+      "accessed": "2026-10-10",
+      "published_or_updated": "2019-09",
+      "type": "official_journal_annotated_example",
+      "scope": "One-page summary model linked from current N01",
+      "claim": "Background, question, result, comparison and context form an annotated model, with editor-dependent length flexibility.",
+      "evidence_excerpt": "or their equivalent",
+      "verification": "Entire one-page PDF text read; screenshot requested.",
+      "cautions": ["Example article is from 2005; model is guidance, not a universal sentence quota."]
+    },
+    {
+      "id": "N08",
+      "title": "Composition of a Nature research paper",
+      "url": "https://www.nature.com/documents/nature-paper-composition.pdf",
+      "accessed": "2026-10-10",
+      "type": "official_journal_diagram",
+      "scope": "Main paper; Methods; Extended Data; Supplementary Information",
+      "claim": "Components differ in publication format and copyediting treatment.",
+      "evidence_excerpt": "Figures should not be included in the Supplementary Information.",
+      "verification": "Entire one-page PDF text read; screenshot requested; current N01 still links this diagram.",
+      "cautions": ["PDF bears an older production footer; use for component distinctions, not current artwork specifications."]
+    },
+    {
+      "id": "N09",
+      "title": "Transparent peer review to be extended to all of Nature’s research papers",
+      "url": "https://www.nature.com/articles/d41586-025-01880-9",
+      "doi": "10.1038/d41586-025-01880-9",
+      "accessed": "2026-10-10",
+      "published_or_updated": "2025-06-16",
+      "type": "official_journal_dated_policy_announcement",
+      "scope": "Nature research-article submissions from 16 June 2025",
+      "claim": "New submissions published as research articles include reviewer reports and author responses.",
+      "evidence_excerpt": "will automatically include a link to the reviewers’ reports and author responses",
+      "verification": "Policy statement verified in accessible lead paragraph on article page; remainder paywalled and not relied upon.",
+      "cautions": ["Submission date matters; does not imply every historical paper has a public review file."]
+    },
+    {
+      "id": "N10",
+      "title": "Plagiarism and duplicate publication | Nature Portfolio",
+      "url": "https://www.nature.com/nature-portfolio/editorial-policies/plagiarism",
+      "accessed": "2026-10-10",
+      "type": "official_portfolio_policy",
+      "scope": "Due credit; text reuse; related publications; unpublished data",
+      "claim": "Credit prior intellectual and technical contributions and disclose related overlapping work.",
+      "evidence_excerpt": "properly describe the contribution of the earlier work",
+      "verification": "Complete substantive page read.",
+      "cautions": ["Overlap needs contextual assessment, not automatic misconduct attribution."]
+    },
+    {
+      "id": "N11",
+      "title": "Forms and declarations | Nature",
+      "url": "https://www.nature.com/nature/for-authors/forms-and-declarations",
+      "accessed": "2026-10-10",
+      "type": "official_journal_guidance",
+      "scope": "Structures; forms and declarations",
+      "claim": "Specific structural-data tables are required where applicable.",
+      "evidence_excerpt": "include as Extended Data tables",
+      "verification": "Complete substantive page read; linked forms indexed, not treated as applicable to all papers."
+    },
+    {
+      "id": "N12",
+      "title": "Nature Portfolio editorial policy checklist retirement notice",
+      "url": "https://www.nature.com/documents/nr-editorial-policy-checklist.pdf",
+      "accessed": "2026-10-10",
+      "type": "official_portfolio_notice",
+      "scope": "This specific former editorial policy checklist only",
+      "claim": "The former editorial policy checklist is retired.",
+      "evidence_excerpt": "This form is no longer required",
+      "verification": "Complete one-page four-line PDF read.",
+      "cautions": ["Other reporting summaries and forms remain governed by their own policies."]
+    }
+  ]
+}
